@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "1f9836559ceb6bc0a3e4cce06e042457fedbe7baf637eecaa37eeb0032a1779c"
+build_start_time: [1655191023, 290367126]
+build_end_time: [1655191023, 656905174]
+inputs:
+  ? "/Users/kzalevskaia/Desktop/Internship/MYAPP2/Build/Intermediates.noindex/Previews/MYAPP2/Intermediates.noindex/MYAPP2.build/Debug-iphonesimulator/MYAPP2.build/DerivedSources/CoreDataGenerated/MYAPP2/Item+CoreDataClass.swift"
+  : [1655191023, 182114839]
+  ? "/Users/kzalevskaia/Desktop/Internship/MYAPP2/Build/Intermediates.noindex/Previews/MYAPP2/Intermediates.noindex/MYAPP2.build/Debug-iphonesimulator/MYAPP2.build/DerivedSources/CoreDataGenerated/MYAPP2/Item+CoreDataProperties.swift"
+  : [1655191023, 184037685]
+  ? "/Users/kzalevskaia/Desktop/Internship/MYAPP2/Build/Intermediates.noindex/Previews/MYAPP2/Intermediates.noindex/MYAPP2.build/Debug-iphonesimulator/MYAPP2.build/DerivedSources/CoreDataGenerated/MYAPP2/MYAPP2+CoreDataModel.swift"
+  : [1655191023, 177206039]
+  "/Users/kzalevskaia/Desktop/Internship/MYAPP2/MYAPP2/ContentView.swift": [1655191020, 898102045]
+  "/Users/kzalevskaia/Desktop/Internship/MYAPP2/MYAPP2/MYAPP2App.swift": [1655191020, 912217855]
+  "/Users/kzalevskaia/Desktop/Internship/MYAPP2/MYAPP2/Persistence.swift": [1655190248, 107486009]

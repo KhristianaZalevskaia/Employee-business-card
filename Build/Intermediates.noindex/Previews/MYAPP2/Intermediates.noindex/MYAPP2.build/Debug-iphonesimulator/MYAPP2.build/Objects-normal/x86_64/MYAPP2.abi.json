@@ -1,0 +1,1328 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "MYAPP2",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "PersistenceController",
+      "printedName": "PersistenceController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "shared",
+          "printedName": "shared",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PersistenceController",
+              "printedName": "MYAPP2.PersistenceController",
+              "usr": "s:6MYAPP221PersistenceControllerV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6MYAPP221PersistenceControllerV6sharedACvpZ",
+          "mangledName": "$s6MYAPP221PersistenceControllerV6sharedACvpZ",
+          "moduleName": "MYAPP2",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PersistenceController",
+                  "printedName": "MYAPP2.PersistenceController",
+                  "usr": "s:6MYAPP221PersistenceControllerV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP221PersistenceControllerV6sharedACvgZ",
+              "mangledName": "$s6MYAPP221PersistenceControllerV6sharedACvgZ",
+              "moduleName": "MYAPP2",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "preview",
+          "printedName": "preview",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PersistenceController",
+              "printedName": "MYAPP2.PersistenceController",
+              "usr": "s:6MYAPP221PersistenceControllerV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6MYAPP221PersistenceControllerV7previewACvpZ",
+          "mangledName": "$s6MYAPP221PersistenceControllerV7previewACvpZ",
+          "moduleName": "MYAPP2",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PersistenceController",
+                  "printedName": "MYAPP2.PersistenceController",
+                  "usr": "s:6MYAPP221PersistenceControllerV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP221PersistenceControllerV7previewACvgZ",
+              "mangledName": "$s6MYAPP221PersistenceControllerV7previewACvgZ",
+              "moduleName": "MYAPP2",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "PersistenceController",
+                  "printedName": "MYAPP2.PersistenceController",
+                  "usr": "s:6MYAPP221PersistenceControllerV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP221PersistenceControllerV7previewACvsZ",
+              "mangledName": "$s6MYAPP221PersistenceControllerV7previewACvsZ",
+              "moduleName": "MYAPP2",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP221PersistenceControllerV7previewACvMZ",
+              "mangledName": "$s6MYAPP221PersistenceControllerV7previewACvMZ",
+              "moduleName": "MYAPP2",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "container",
+          "printedName": "container",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSPersistentCloudKitContainer",
+              "printedName": "CoreData.NSPersistentCloudKitContainer",
+              "usr": "c:objc(cs)NSPersistentCloudKitContainer"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6MYAPP221PersistenceControllerV9containerSo29NSPersistentCloudKitContainerCvp",
+          "mangledName": "$s6MYAPP221PersistenceControllerV9containerSo29NSPersistentCloudKitContainerCvp",
+          "moduleName": "MYAPP2",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSPersistentCloudKitContainer",
+                  "printedName": "CoreData.NSPersistentCloudKitContainer",
+                  "usr": "c:objc(cs)NSPersistentCloudKitContainer"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP221PersistenceControllerV9containerSo29NSPersistentCloudKitContainerCvg",
+              "mangledName": "$s6MYAPP221PersistenceControllerV9containerSo29NSPersistentCloudKitContainerCvg",
+              "moduleName": "MYAPP2",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(inMemory:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PersistenceController",
+              "printedName": "MYAPP2.PersistenceController",
+              "usr": "s:6MYAPP221PersistenceControllerV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6MYAPP221PersistenceControllerV8inMemoryACSb_tcfc",
+          "mangledName": "$s6MYAPP221PersistenceControllerV8inMemoryACSb_tcfc",
+          "moduleName": "MYAPP2",
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6MYAPP221PersistenceControllerV",
+      "mangledName": "$s6MYAPP221PersistenceControllerV",
+      "moduleName": "MYAPP2",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "MYAPP2",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "showMe",
+          "printedName": "showMe",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6MYAPP211ContentViewV6showMe33_C37838A045676B2842D16AB22FA6D695LLSbvp",
+          "mangledName": "$s6MYAPP211ContentViewV6showMe33_C37838A045676B2842D16AB22FA6D695LLSbvp",
+          "moduleName": "MYAPP2",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "AccessControl",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP211ContentViewV6showMe33_C37838A045676B2842D16AB22FA6D695LLSbvg",
+              "mangledName": "$s6MYAPP211ContentViewV6showMe33_C37838A045676B2842D16AB22FA6D695LLSbvg",
+              "moduleName": "MYAPP2",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP211ContentViewV6showMe33_C37838A045676B2842D16AB22FA6D695LLSbvs",
+              "mangledName": "$s6MYAPP211ContentViewV6showMe33_C37838A045676B2842D16AB22FA6D695LLSbvs",
+              "moduleName": "MYAPP2",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP211ContentViewV6showMe33_C37838A045676B2842D16AB22FA6D695LLSbvM",
+              "mangledName": "$s6MYAPP211ContentViewV6showMe33_C37838A045676B2842D16AB22FA6D695LLSbvM",
+              "moduleName": "MYAPP2",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$showMe",
+          "printedName": "$showMe",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6MYAPP211ContentViewV7$showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s6MYAPP211ContentViewV7$showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI7BindingVySbGvp",
+          "moduleName": "MYAPP2",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP211ContentViewV7$showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s6MYAPP211ContentViewV7$showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI7BindingVySbGvg",
+              "moduleName": "MYAPP2",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_showMe",
+          "printedName": "_showMe",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6MYAPP211ContentViewV7_showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s6MYAPP211ContentViewV7_showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI5StateVySbGvp",
+          "moduleName": "MYAPP2",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP211ContentViewV7_showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI5StateVySbGvg",
+              "mangledName": "$s6MYAPP211ContentViewV7_showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI5StateVySbGvg",
+              "moduleName": "MYAPP2",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP211ContentViewV7_showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI5StateVySbGvs",
+              "mangledName": "$s6MYAPP211ContentViewV7_showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI5StateVySbGvs",
+              "moduleName": "MYAPP2",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP211ContentViewV7_showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI5StateVySbGvM",
+              "mangledName": "$s6MYAPP211ContentViewV7_showMe33_C37838A045676B2842D16AB22FA6D695LL7SwiftUI5StateVySbGvM",
+              "moduleName": "MYAPP2",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6MYAPP211ContentViewV4bodyQrvp",
+          "mangledName": "$s6MYAPP211ContentViewV4bodyQrvp",
+          "moduleName": "MYAPP2",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP211ContentViewV4bodyQrvg",
+              "mangledName": "$s6MYAPP211ContentViewV4bodyQrvg",
+              "moduleName": "MYAPP2",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "MYAPP2.ContentView",
+              "usr": "s:6MYAPP211ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6MYAPP211ContentViewVACycfc",
+          "mangledName": "$s6MYAPP211ContentViewVACycfc",
+          "moduleName": "MYAPP2",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6MYAPP211ContentViewV",
+      "mangledName": "$s6MYAPP211ContentViewV",
+      "moduleName": "MYAPP2",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView_Previews",
+      "printedName": "ContentView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6MYAPP220ContentView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s6MYAPP220ContentView_PreviewsV8previewsQrvpZ",
+          "moduleName": "MYAPP2",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP220ContentView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s6MYAPP220ContentView_PreviewsV8previewsQrvgZ",
+              "moduleName": "MYAPP2",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView_Previews",
+              "printedName": "MYAPP2.ContentView_Previews",
+              "usr": "s:6MYAPP220ContentView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6MYAPP220ContentView_PreviewsVACycfc",
+          "mangledName": "$s6MYAPP220ContentView_PreviewsVACycfc",
+          "moduleName": "MYAPP2",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6MYAPP220ContentView_PreviewsV",
+      "mangledName": "$s6MYAPP220ContentView_PreviewsV",
+      "moduleName": "MYAPP2",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "MYAPP2",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MyApp",
+      "printedName": "MyApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.Scene",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Scene",
+                  "printedName": "SwiftUI.Scene",
+                  "usr": "s:7SwiftUI5SceneP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6MYAPP25MyAppV4bodyQrvp",
+          "mangledName": "$s6MYAPP25MyAppV4bodyQrvp",
+          "moduleName": "MYAPP2",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6MYAPP25MyAppV4bodyQrvg",
+              "mangledName": "$s6MYAPP25MyAppV4bodyQrvg",
+              "moduleName": "MYAPP2",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MyApp",
+              "printedName": "MYAPP2.MyApp",
+              "usr": "s:6MYAPP25MyAppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6MYAPP25MyAppVACycfc",
+          "mangledName": "$s6MYAPP25MyAppVACycfc",
+          "moduleName": "MYAPP2",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6MYAPP25MyAppV5$mainyyFZ",
+          "mangledName": "$s6MYAPP25MyAppV5$mainyyFZ",
+          "moduleName": "MYAPP2",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:6MYAPP25MyAppV",
+      "mangledName": "$s6MYAPP25MyAppV",
+      "moduleName": "MYAPP2",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.Scene",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Scene",
+                      "printedName": "SwiftUI.Scene",
+                      "usr": "s:7SwiftUI5SceneP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "MYAPP2",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "MYAPP2"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Item",
+      "printedName": "Item",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(entity:insertInto:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Item",
+              "printedName": "MYAPP2.Item",
+              "usr": "c:@M@MYAPP2@objc(cs)Item"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSEntityDescription",
+              "printedName": "CoreData.NSEntityDescription",
+              "usr": "c:objc(cs)NSEntityDescription"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CoreData.NSManagedObjectContext?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSManagedObjectContext",
+                  "printedName": "CoreData.NSManagedObjectContext",
+                  "usr": "c:objc(cs)NSManagedObjectContext"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@MYAPP2@objc(cs)Item(im)initWithEntity:insertIntoManagedObjectContext:",
+          "mangledName": "$s6MYAPP24ItemC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+          "moduleName": "MYAPP2",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "fetchRequest",
+          "printedName": "fetchRequest()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSFetchRequest",
+              "printedName": "CoreData.NSFetchRequest<MYAPP2.Item>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Item",
+                  "printedName": "MYAPP2.Item",
+                  "usr": "c:@M@MYAPP2@objc(cs)Item"
+                }
+              ],
+              "usr": "c:objc(cs)NSFetchRequest"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6MYAPP24ItemC12fetchRequestSo07NSFetchD0CyACGyFZ",
+          "mangledName": "$s6MYAPP24ItemC12fetchRequestSo07NSFetchD0CyACGyFZ",
+          "moduleName": "MYAPP2",
+          "static": true,
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl",
+            "NonObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "timestamp",
+          "printedName": "timestamp",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Date?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Date",
+                  "printedName": "Foundation.Date",
+                  "usr": "s:10Foundation4DateV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@MYAPP2@objc(cs)Item(py)timestamp",
+          "mangledName": "$s6MYAPP24ItemC9timestamp10Foundation4DateVSgvp",
+          "moduleName": "MYAPP2",
+          "isOpen": true,
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Date?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@MYAPP2@objc(cs)Item(im)timestamp",
+              "mangledName": "$s6MYAPP24ItemC9timestamp10Foundation4DateVSgvg",
+              "moduleName": "MYAPP2",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Date?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@MYAPP2@objc(cs)Item(im)setTimestamp:",
+              "mangledName": "$s6MYAPP24ItemC9timestamp10Foundation4DateVSgvs",
+              "moduleName": "MYAPP2",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@MYAPP2@objc(cs)Item",
+      "mangledName": "$s6MYAPP24ItemC",
+      "moduleName": "MYAPP2",
+      "isOpen": true,
+      "objc_name": "Item",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSManagedObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "CoreData.NSManagedObject",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObjectIdentifier",
+                  "printedName": "Swift.ObjectIdentifier",
+                  "usr": "s:SO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ObservableObject",
+          "printedName": "ObservableObject",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ObjectWillChangePublisher",
+              "printedName": "ObjectWillChangePublisher",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObservableObjectPublisher",
+                  "printedName": "Combine.ObservableObjectPublisher",
+                  "usr": "s:7Combine25ObservableObjectPublisherC"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7Combine16ObservableObjectP",
+          "mangledName": "$s7Combine16ObservableObjectP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "MYAPP2",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "MYAPP2"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "MYAPP2",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "MYAPP2"
+    }
+  ],
+  "json_format_version": 6
+}

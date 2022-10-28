@@ -1,0 +1,16 @@
+{
+  "source": "/Users/kzalevskaia/Desktop/Internship/MYAPP2/MYAPP2/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "A programmer is a person who is able to solve problems going beyond the scope of his knowledge."
+      },
+      {
+        "comment": "",
+        "key": "About"
+      }
+    ]
+  },
+  "version": 1
+}
